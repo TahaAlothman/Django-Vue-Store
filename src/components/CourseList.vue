@@ -17,13 +17,11 @@
   </template>
 
 <script>
-import {courses} from '../tem-data'
+
   export default {
     name: 'CourseList',
-    data(){
-     return {
-      courses:courses
-     }
-    }
+    props:['courses']
+   
+    
   }
 </script>
