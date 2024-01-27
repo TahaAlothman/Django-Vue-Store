@@ -11,7 +11,7 @@ const router = createRouter({
       component: CoursesViewVue
     },
     {
-      path: '/:course-id',
+      path: '/:course_id',
       name: 'courses-detail',
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
